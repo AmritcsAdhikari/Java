@@ -5,8 +5,8 @@ import com.twilio.type.PhoneNumber;
 
 public class TwilioMessage {
 
-	public static final String ACCOUNT_SID = "AC63c749e5ef1e5940ec26bf455e84a133";
-	public static final String AUTH_TOKEN = "74e811022b31544ff7e5779c095e9135";
+	public static final String ACCOUNT_SID = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
+	public static final String AUTH_TOKEN = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 	public static String CODETOSEND = "";
 
 	public static String randomNum() {
