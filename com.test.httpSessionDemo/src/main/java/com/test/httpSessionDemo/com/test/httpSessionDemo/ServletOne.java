@@ -28,6 +28,8 @@ public class ServletOne extends HttpServlet {
 		
 		session.setAttribute("name", name);
 		
+		out.print("\nSession ID: "+session.getId()); //get session id
+		
 		out.print("<a href='ServletTwo'>Visit</a>");
 		out.close();
 		
