@@ -23,6 +23,8 @@ public class ServletTwo extends HttpServlet {
 		
 		String n = (String) session.getAttribute("name");
 		
+		out.print("\nSession ID: "+session.getId()); //get session id ---compare to the one given by servlet1
+		
 		out.print("Hello " + n);
 		out.close();
 		
