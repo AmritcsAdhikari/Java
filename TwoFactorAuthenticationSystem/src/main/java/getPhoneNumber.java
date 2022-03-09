@@ -4,7 +4,7 @@ import java.sql.ResultSet;
 
 import java.sql.Statement;
 
-public class getPhoneNumber {
+public class GetPhoneNumber {
 
 	public static String getEncryptedPhone(String uname) {
 			String dbDriver = "com.mysql.cj.jdbc.Driver";
